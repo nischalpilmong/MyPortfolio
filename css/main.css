@@ -56,10 +56,45 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container{
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+#main-header{
+    height: 60px;
+    background: #f5e0df;
+    overflow: hidden;
+}
+#profile-logo{
+    float: left;
+    width: 50%;
+}
+#profile-logo img{
+    margin-top: 5px;
+    position: absolute;
+    width: 60px;
+    height: auto;
+}
+#profile-logo p{
+    padding: 20px 0 0 70px;
+    margin: 0 !important;
+    color: #333;
+    font-family: montserrat;
+    font-size: 32px;
+}
+#profile-logo span{
+    font-weight: 800;
+    color: #5e1221;
+    font-style: normal;
+    font-family: Arial;
+}
 
+#main-nav{
+    float: right;
+    width: 50%;
 
-
-
+}
 
 
 
